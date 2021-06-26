@@ -5,6 +5,7 @@ function App() {
     // const people = ["Brian", "Eric", "Paul", "Jake"];
     // const numbers = [2, 5, 7, 3, 8];
 
+    // add two properties to each person
     const people = [
         { firstName: "Paul", lastName: "Jones", age: 32 },
         { firstName: "John", lastName: "Connel", age: 22 },
@@ -18,6 +19,7 @@ function App() {
             <table>
                 <thead>
                     <tr>
+                        {/* add the new th rows */}
                         <th>first name</th>
                         <th>last name</th>
                         <th>age</th>

@@ -1,6 +1,7 @@
 import React from "react";
 
 function PersonRow(props) {
+    // display new properties
     return (
         <tr>
             <td>{props.somethingWeird.firstName}</td>
